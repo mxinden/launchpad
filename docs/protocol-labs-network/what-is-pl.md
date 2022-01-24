@@ -52,16 +52,9 @@ Even though we are young, we have already created a large ecosystem of interrela
 
 ### Our Business Model: Market Protocols
 
-In 2013, while studying Bitcoin, it became clear that cryptocurrencies solved many fundamental issues with protocol development:
 
-A cryptocurrency can address a portion of the value created by the protocol, and it can be allocated to fund protocol creators and maintainers.
+// Something else?
 
-This is an unprecedented way to capture a fraction of the value created and feed it back into development of the protocol and its ecosystem, and the creation of more protocols. What's more, the value capture is coming at the protocol layer and not on applications or services above. The attention and interests of the protocol developers remain aligned with successful outcomes for the protocol.
+// Lab Week Videos?
 
-![Distributed Web](https://protocol.ai/assets/img/filecoin_logos.2c567d09.png)
-
-The cryptocurrency can be used to incent individuals and other groups outside of the original organization to improve and work on the protocol. It can also be used to fund the entire development of the currency, by pre-selling it as Ethereum did in 2014.
-
-Putting it altogether, the main revenue stream of Protocol Labs will be through holding **Market Protocol assets**. A Market Protocol is a system that mediates some economic activity, and settles value exchanges using a cryptographic asset. This structure solves economic problems in asymmetric peer-to-peer resource sharing, scaling, services, maintenance, and development. Only a subset of our protocols will be Market Protocols.
-
-Investors are important. Protocol Labs raised funding from an amazing set of technology investors. It is a diverse group, with different expertise, perspectives, and interests. Their support has been tremendously helpful from the beginning, and will continue to make a crucial difference in our future. We are lucky to work with Union Square Ventures, BlueYard, Y Combinator, Naval Ravikant, and [many others](https://protocol.ai/team/).
+// Images?
