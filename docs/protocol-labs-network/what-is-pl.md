@@ -6,7 +6,11 @@ description: What is the Protocol Labs Network
 
 ## Protocol Labs: An Overview
 
-{% embed url="https://youtu.be/QKEFMh-kT_Q" %}
+
+{% embed url="https://docs.google.com/presentation/d/108Dt3QwjB6Mi3lXhl9olGqmhyx2tIiYwY3wUtLpiRco/edit?usp=sharing" %}
+This deck shows a quick overview of the major principles of Protocol Labs
+{% endembed %}
+
 
 ## Background, Work, & Business Model
 
@@ -50,11 +54,21 @@ Even though we are young, we have already created a large ecosystem of interrela
 * [CoinList](https://coinlist.co) is a protocol token fundraising platform. AngelList meets Kickstarter meets Protocol Tokens.
 * [SAFT](https://coinlist.co/saft) is a legal framework for protocol token fundraising.
 
-### Our Business Model: Market Protocols
+### A Network built around Market Protocols
 
 
 // Something else?
 
+<<<<<<< HEAD
 // Lab Week Videos?
 
 // Images?
+=======
+This is an unprecedented way to capture a fraction of the value created and feed it back into development of the protocol and its ecosystem, and the creation of more protocols. What's more, the value capture is coming at the protocol layer and not solely based on applications or services above. The attention and interests of the protocol developers remain aligned with successful outcomes for the protocol, and the projects building around it.
+
+![Distributed Web](https://protocol.ai/assets/img/filecoin\_logos.2c567d09.png)
+
+The cryptocurrency can be used to incent individuals and other groups outside of the original organization to improve and work on the protocol. It can also be used to fund the entire development of the currency, by pre-selling it as Ethereum did in 2014.
+
+The PL Network is funded by, and derives funding from, **Market Protocol assets**. A Market Protocol is a system that mediates some economic activity, and settles value exchanges using a cryptographic asset. This structure solves economic problems in asymmetric peer-to-peer resource sharing, scaling, services, maintenance, and development. In the case of the PL Network, a portion of that network-aligning asset is funneled back into [protocol public goods funding](https://fundingthecommons.io) to reward research, development, and product teams across the network.
+>>>>>>> main
