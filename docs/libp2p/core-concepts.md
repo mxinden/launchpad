@@ -6,7 +6,7 @@ description: The Building Blocks of Libp2p
 ## Concepts
 _This is an annotated version of [this libp2p doc](https://docs.libp2p.io/concepts/)_
 
-libp2p covers a lot of ground, and may involve unfamiliar terminology and concepts. This section goes over the foundational concepts involved in libp2p.
+Libp2p covers a lot of ground, and may involve unfamiliar terminology and concepts. This section goes over the foundational concepts involved in libp2p.
 
 <!-- Needs review-- Did I miss anything important? Can it be pared down at all? -->
 
@@ -56,7 +56,8 @@ These are the protocols that define your application and provide its core functi
 
 There are some [key defining features of a libp2p protocol](https://docs.libp2p.io/concepts/protocols/#what-is-a-libp2p-protocol), and a protocol negotiation processes
 
-#### Protocol Negotiation
+
+**Protocol Negotiation**
 When dialing out to initiate a new stream, libp2p will send the protocol id of the protocol you want to use. The listening peer on the other end will check the incoming protocol id against the registered protocol handlers.
 
 If the listening peer does not support the requested protocol, it will end the stream, and the dialing peer can try again with a different protocol, or possibly a fallback version of the initially requested protocol.
@@ -65,8 +66,7 @@ If the protocol is supported, the listening peer will echo back the protocol id 
 
 This process of reaching agreement about what protocol to use for a given stream or connection is called protocol negotiation.
 
-
-#### Core Libp2p Protocols
+**Core Libp2p Protocols**
 In addition to the protocols that you write when developing a libp2p application, libp2p itself defines several foundational protocols that are used for core features.
 
 [Read More](https://docs.libp2p.io/concepts/protocols/)
@@ -76,7 +76,7 @@ A Peer Identity (often written `PeerId`) is a unique reference to a specific pee
 
 As well as serving as a unique identifier for each peer, a PeerId is a verifiable link between a peer and its public cryptographic key.
 
-#### What is a PeerId
+**What is a PeerId**
 Each libp2p peer controls a private key, which it keeps secret from all other peers. Every private key has a corresponding public key, which is shared with other peers.
 
 Together, the public and private key (or “key pair”) allow peers to establish secure communication channels with each other.
@@ -125,14 +125,14 @@ provide the tools for application developers to address these problems, rather
 than taking arbitrary approaches to security that may not be acceptable to all
 systems built with libp2p.
 
-#### Identity and Trust
+**Identity and Trust**
 
 Every libp2p peer is uniquely identified by their [peer id](../peer-id/), which
 is derived from a private cryptographic key. Peer ids and their corresponding
 keys allow us to _authenticate_ remote peers, so that we can be sure we're
 talking to the correct peer and not an imposter.
 
-#### Cooperative Systems with Abuse Potential
+**Cooperative Systems with Abuse Potential**
 
 Some of libp2p's most useful built-in protocols are cooperative, leveraging
 other peers in the network to perform tasks that benefit everyone. For example,
@@ -156,7 +156,7 @@ Peers can send messages to topics. Each message gets delivered to all peers subs
 
 ![peer message blob](https://docs.libp2p.io/concepts/publish-subscribe/message_delivered_to_all.png)
 
-#### Design goals
+**Design Goals**
 
 In a peer-to-peer pub/sub system all peers participate in delivering messages
 throughout the network. There are several different designs for peer-to-peer
@@ -183,14 +183,14 @@ libp2p applications often open many independent streams of communication between
 
 libp2p provides a common [interface](#interface) for stream multiplexers with several [implementations](#implementations) available. Applications can enable support for multiple multiplexers, which will allow you to fall back to a widely-supported multiplexer if a preferred choice is not supported by a remote peer.
 
-#### Where it Fits in the Libp2p Stack
+**Where it Fits in the Libp2p Stack**
 
 libp2p's multiplexing happens at the "application layer", meaning it's not provided by the operating system's network stack. However, developers writing libp2p applications rarely need to interact with stream multiplexers directly, except during initial configuration to control which modules are enabled.
 
-#### Interface
+**Interface**
 The [stream multiplexing interface][interface-stream-muxing] defines how a stream muxing module can be applied to a connection and what operations are supported by a multiplexed connection.
 
-#### Implementations
+**Implementations**
 
 There are several stream multiplexing modules available in libp2p. Please note that not all stream muxers are supported by every libp2p language implementation.
 
@@ -201,7 +201,7 @@ There are several stream multiplexing modules available in libp2p. Please note t
 
 Use [Crate Libp2p](https://docs.rs/libp2p/0.40.0/libp2p/) to understand the modules, macros, structs, enums, traits, and functions used for the libp2p implementations
 
-### Rust Libp2p Tutorial (Optional)
+## Rust Libp2p Tutorial (Optional)
 _Find the [full tutorial here](https://docs.rs/libp2p/0.40.0/libp2p/tutorial/index.html)_
 
 This tutorial aims to give newcomers a hands-on overview on how to use the Rust libp2p implementation. People new to Rust likely want to get started on Rust itself, before diving into all the networking fun. This library makes heavy use of asynchronous Rust. In case you are not familiar with these concepts the Rust async-book should prove useful. People new to libp2p might prefer to get a general overview at libp2p.io first, though libp2p knowledge is not required for this tutorial.
