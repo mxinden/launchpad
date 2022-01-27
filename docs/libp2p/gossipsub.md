@@ -16,7 +16,7 @@ description: A Publish / Subscribe Message Delivery Network
 
 ## Gossipsub 1.1
 
-####  A scalable, extensible & hardened P2P PubSub Router protocol | Ready Layer One - David Dias
+####  A Scalable, Extensible & Hardened P2P PubSub Router Protocol | Ready Layer One - David Dias
 
 <!-- Need a summary -->
 
