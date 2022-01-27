@@ -19,7 +19,7 @@ Libp2p is a modularized and extensible network stack to overcome the networking 
 * Thing2
 * Thing3 -->
 
-Building large scale peer-to-peer systems has been complex and difficult over the last 15 years, and libp2p is a way to fix that. It is a “network stack,” a protocol suite that cleanly separates concerns, and enables sophisticated applications to only use the protocols they absolutely need, without giving up interoperability and upgradeability. libp2p grew out of IPFS, but it is built so that lots of people can use it for lots of different projects.
+Building large scale peer-to-peer systems has been complex and difficult over the last 15 years, and libp2p is a way to fix that. It is a “network stack,” a protocol suite that cleanly separates concerns, and enables sophisticated applications to only use the protocols they absolutely need, without giving up interoperability and upgradeability. Libp2p grew out of IPFS, but it is built so that lots of people can use it for lots of different projects.
 
 #### Introduction to Libp2p | David Dias
 
@@ -104,7 +104,7 @@ If you want to contribute, start by checking out the [contribution guidelines](h
 
 #### Intro to Libp2p | Encode Filecoin Club - Max Inden <!-- Is this the right Max? -->
 
-In this talk by Steven & Dietrich, they review some of the customs and best practices involved when becoming a part of an open source community.
+<!-- Need a summary of this -->
 
 {% embed url="https://www.youtube.com/watch?v=7OZLImVRvro" %}
 
