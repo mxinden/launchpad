@@ -13,7 +13,7 @@ Hole Punching is the process of establishing direct connections between two libp
 
 This includes two types of hosts: publicly reachable and non-publicly reachable hosts. Addresses of the former type of hosts can be directly dialed on the public Internet. Addresses of the latter type of hosts can only be dialed through a relay protocol, or through some means of hole punching. The document refers to publicly reachable hosts as public and non-publicly reachable hosts as private.
 
-**See the entirety of the [long-term vision](### Long-Term Visions)_
+**See the entirety of the [long-term vision](https://github.com/libp2p/specs/blob/master/connections/hole-punching.md)**
 
 ### Project Flare
 _See [the full proposal here](https://github.com/protocol/web3-dev-team/pull/21/files#diff-b137dc3a933796d3ce264eeb6a31386d72a7a1c925c01e62c3ab026f46c417c2)_
