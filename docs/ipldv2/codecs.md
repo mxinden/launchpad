@@ -8,6 +8,7 @@ IPLD is ambitious in its aims to be able to represent many, varied types of cont
 
 Every content addressed data system defines at leats one data storage format. Some formats are common between systems—JSON is a common format since it is supported across almost every programming language and is easy to read! Binary formats are common for their compactness when storing or transferring large amounts of data. [CBOR is a binary format](https://cbor.io/) that is similar to JSON but more compact and able to represent more data types.
 
+
 Popular content addressed systems such as Git, Bitcoin and Ethereum have their own unique and custom formats, specifically engineered to their own use-cases.
 
 Similarly, IPFS began life with its own data encoding format, specifically designed around the needs of file storage and addressing. Over time, the native IPFS data format was defined as "DAG-PB" (because it is a Protobuf based format for building DAGs), with an additional layer on top of it called UnixFS for encoding file and directory metadata.
